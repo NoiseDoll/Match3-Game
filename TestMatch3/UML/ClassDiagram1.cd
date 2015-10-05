@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestMatch3.Gui.GuiScreen" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAABAgAAAAAAAAAAAAQBAAgIAAAAAAAIAAQ=</HashCode>
+      <FileName>Gui\GuiScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" />
+  </Class>
+  <Class Name="TestMatch3.Gui.GuiElement" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgBAAAAIQAQAAAAgAAAAAAAAAAQBEAQ=</HashCode>
+      <FileName>Gui\GuiElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Screens.StartScreen" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAgAAAAAABAAIAAAAAAAAQ=</HashCode>
+      <FileName>Screens\StartScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Screens.GameScreen" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAIAAiAAIABIAAAgAAAAAAGABAAoAgAAAAQ=</HashCode>
+      <FileName>Screens\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Screens.EndScreen" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAMAAAAQAAAgAAAABAAAAyAAAAAAAABAAAgAAAAAQ=</HashCode>
+      <FileName>Screens\EndScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gui.GuiButton" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAQEAAAAjAAAAAAAAAEAAAAAgAEAAEAAAAAAAQ=</HashCode>
+      <FileName>Gui\GuiButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gameplay.Cell" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASEEAEAAASAEiBAgKFAAAgCAgBBAwAAAEEIRggAMJg=</HashCode>
+      <FileName>Gameplay\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gui.GuiLabel" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAIAIAAAAAAAAAAAAAIAAAACAAAAAw=</HashCode>
+      <FileName>Gui\GuiLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gui.GuiGrid" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEgAAAACAAiQAABJABAACAFKAAAACAMQADACABAQ=</HashCode>
+      <FileName>Gui\GuiGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gameplay.ShapesAtlas" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gameplay\ShapesAtlas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gui.TextureAtlas" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAIAAAgAAAA=</HashCode>
+      <FileName>Gui\TextureAtlas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMatch3.Gameplay.Destroyer" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAgBgACAABAACAAEAAgIIQAAAAAAAAAA=</HashCode>
+      <FileName>Gameplay\Destroyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TestMatch3.Gui.IHasChild" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Gui\IHasChild.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TestMatch3.Gameplay.Shape" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAgAAgAAgAAgACAAAAA=</HashCode>
+      <FileName>Gameplay\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMatch3.Gui.GuiElementState" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAEAAA=</HashCode>
+      <FileName>Gui\GuiElementState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMatch3.Gameplay.Animation" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACAAAAAAAAAAAgAAAABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Gameplay\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMatch3.Gameplay.Bonus" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAIAAAAAAAAAAAAAAAQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Gameplay\Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMatch3.Gameplay.Direction" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAAAAAAAAAAAAAAAAAAIACACAAAAAAAI=</HashCode>
+      <FileName>Gameplay\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMatch3.Gameplay.GameState" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAEAAAgAEAABAAAAAAAACAQAAAA=</HashCode>
+      <FileName>Gameplay\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
